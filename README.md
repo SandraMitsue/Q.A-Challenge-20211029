@@ -1,4 +1,4 @@
-# Automação do Teste Web com Robot Framework
+# Automação de Teste com Robot Framework
 
 Este projeto realiza testes automatizados em uma aplicação usando Robot Framework.
 
