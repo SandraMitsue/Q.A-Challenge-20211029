@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.11.4 on win32)" generated="20230712 12:21:02.254" rpa="false" schemaversion="2">
+<suite id="s1" name="Q.A Challenge 20211029" source="C:\Users\Sandra Mitsue\Desktop\Q.A_Challenge_20211029">
+<suite id="s1-s1" name="Tests" source="C:\Users\Sandra Mitsue\Desktop\Q.A_Challenge_20211029\tests.robot">
+<test id="s1-s1-t1" name="Cenário 2: Navegação do menu de login para a página de criação de conta">
+<kw name="Dado que eu estou na página de login https://beta.coodesh.com/auth/signin" library="tests">
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>Entrar | Coodesh</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<msg timestamp="20230712 12:21:02.971" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230712 12:21:02.978" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20230712 12:21:02.970" endtime="20230712 12:21:02.981"/>
+</kw>
+<status status="FAIL" starttime="20230712 12:21:02.968" endtime="20230712 12:21:02.982"/>
+</kw>
+<kw name="Quando clico em &quot;Criar conta&quot;" library="tests">
+<status status="NOT RUN" starttime="20230712 12:21:02.985" endtime="20230712 12:21:02.986"/>
+</kw>
+<kw name="Então eu devo ser redirecionada para a página de &quot;cadastre-se&quot;" library="tests">
+<status status="NOT RUN" starttime="20230712 12:21:02.987" endtime="20230712 12:21:02.988"/>
+</kw>
+<status status="FAIL" starttime="20230712 12:21:02.963" endtime="20230712 12:21:02.989">No browser is open.</status>
+</test>
+<status status="FAIL" starttime="20230712 12:21:02.400" endtime="20230712 12:21:02.999"/>
+</suite>
+<status status="FAIL" starttime="20230712 12:21:02.269" endtime="20230712 12:21:03.007"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Q.A Challenge 20211029">Q.A Challenge 20211029</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Tests">Q.A Challenge 20211029.Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
