@@ -31,15 +31,14 @@ O projeto consiste em três arquivos principais:
 5. Instale o WebDriver adequado. Para o Chrome, você pode baixar o ChromeDriver aqui: https://chromedriver.chromium.org/downloads
 6. Instale a FakerLibrary. No terminal, execute `pip install robotframework-faker`
 
-## Uso
+## Execução dos testes
 
 Para rodar os testes, abra um terminal e navegue até a pasta do projeto. Execute o seguinte comando:
 
-```shell
-robot tests.robot
+`robot tests.robot`
 
-# INSTRUÇÕES DO DESAFIO
-# Q.A. Challenge 20211029
+
+# INSTRUÇÕES DO DESAFIO - Q.A. Challenge 20211029
 
 Por favor, complete o seguinte desafio para seguir com a sua candidatura. Você deverá documentar o seu processo e apresentá-lo em um vídeo (utilizando um PowerPoint ou apresentação semelhante), bem como demonstrar o resultado.
 
