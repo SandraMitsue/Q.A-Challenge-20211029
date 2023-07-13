@@ -71,7 +71,7 @@ Quando eu preencho os campos
     Wait Until Element Is Visible       ${AUTOMATION}
     Click Element                       ${AUTOMATION}
     Scroll Element Into View            ${SCROLL3}
-    Wait Until Element Is Visible       ${EXPERIENCE}  5
+    Wait Until Element Is Visible       ${EXPERIENCE}  10
     Press Keys                          ${EXPERIENCE}    \ue014   
     Click Element                       ${PROFESSIONAL_MOMENT}
     Click Element                       ${NEW_OPPORTUNITIES}
