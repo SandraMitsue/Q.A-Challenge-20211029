@@ -1,3 +1,44 @@
+# Automação do Teste Web com Robot Framework
+
+Este projeto realiza testes automatizados em uma aplicação usando Robot Framework.
+
+O objetivo do projeto é automatizar tarefas como criar uma conta de usuário, acessar a página de preenchimento de perfil, pesquisar vagas e verificar a navegação entre as páginas.
+
+
+## Arquivos do Projeto
+
+O projeto consiste em três arquivos principais:
+
+1. `tests.robot`: contém os cenários de teste.
+2. `variables.resource`: contém as variáveis usadas nos testes.
+3. `keywords.robot`: contém as palavras-chave personalizadas utilizadas nos testes, incluindo a geração de dados de usuário aleatórios.
+
+## Pré-requisitos
+
+1. Python 3.11.4
+2. Pip (Gerenciador de Pacotes do Python)
+3. Robot Framework 4.1.1
+4. SeleniumLibrary 6.0.0
+5. WebDriver para o navegador que você deseja usar (Chrome, Firefox, etc.)
+6. FakerLibrary (opcional, para gerar dados fictícios)
+
+## Instalação
+
+1. Instale o Python: https://www.python.org/downloads/
+2. Instale o Pip. Normalmente, o Pip é instalado com o Python. Se não estiver, siga estas instruções: https://pip.pypa.io/en/stable/
+3. Instale o Robot Framework. Abra um terminal e execute `pip install robotframework 4.1.1`
+4. Instale a SeleniumLibrary. No terminal, execute `pip install robotframework-seleniumlibrary 6.0.0`
+5. Instale o WebDriver adequado. Para o Chrome, você pode baixar o ChromeDriver aqui: https://chromedriver.chromium.org/downloads
+6. Instale a FakerLibrary. No terminal, execute `pip install robotframework-faker`
+
+## Uso
+
+Para rodar os testes, abra um terminal e navegue até a pasta do projeto. Execute o seguinte comando:
+
+```shell
+robot tests.robot
+
+# INSTRUÇÕES DO DESAFIO
 # Q.A. Challenge 20211029
 
 Por favor, complete o seguinte desafio para seguir com a sua candidatura. Você deverá documentar o seu processo e apresentá-lo em um vídeo (utilizando um PowerPoint ou apresentação semelhante), bem como demonstrar o resultado.

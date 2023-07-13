@@ -26,9 +26,8 @@ Cenário 4: Acessar a página de Preenchimento do Perfil
     Dado que estou na página de onboarding
     Quando eu preencho os campos
     E clico no botão "Próximo"
-    # E preencho os dados da próxima página
-    # Então sou redirecionada para a página do Scorecard
-    #E clico no botão "Responde agora"
+    E preencho os dados da próxima página
+    Então sou redirecionada para a página do Scorecard
 
 
 Cenário 5: Pesquisar vagas

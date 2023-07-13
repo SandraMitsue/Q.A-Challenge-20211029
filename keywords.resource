@@ -58,6 +58,7 @@ E clico no botão "inscreva-se"
 Então devo ser redirecionado para a página de preenchimento do perfil
     Wait Until Page Contains    Dados pessoais    10
     Title Should Be     Dados pessoais | Coodesh
+    Sleep  5
 
 # Cenário 4: Acessar a página de Preenchimento do Perfil
 Dado que estou na página de onboarding
@@ -82,8 +83,24 @@ Quando eu preencho os campos
 E clico no botão "Próximo"
     Click Button                        ${BUTTON_NEXT}
 
-# E preencho os dados da próxima página
-   
+E preencho os dados da próxima página
+    Scroll Element Into View            ${SCROLL5}
+    Click Element                       ${SOCIAL_CAUSES}
+    Click Element                       ${SOCIAL_ASSISTANCE}
+    Click Element                       ${IDENTIFYING_COLOR}
+    Click Element                       ${BROWN}
+    Click Element                       ${GENDER}
+    Click Element                       ${FEMALE}
+    Click Element                       ${SEXUAL_ORIENTATION}
+    Click Element                       ${HETEROSEXUAL}
+    Execute JavaScript                  ${SCROLL6}
+    Click Element                       ${DISABILITY}
+    Click Button                        ${NEXT}
+
+Então sou redirecionada para a página do Scorecard
+    Location Should Be  https://beta.coodesh.com/onboarding/developer/personal
+    Title Should Be     Dados pessoais | Coodesh
+    Sleep  5
 
 # Cenário 5: Pesquisar vagas
 E realizo o login com dados cadastrados, depois clico em "Vagas"
