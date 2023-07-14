@@ -1,5 +1,8 @@
 # Automação de Teste com Robot Framework
 
+# VÍDEO DE APRESENTAÇÃO DO PROJETO
+https://www.loom.com/share/d6647d1404574be68c9a0ab79b1217ac?sid=6135de56-f0b8-430c-93cd-8ec66168e215
+
 Este projeto realiza testes automatizados em uma aplicação usando Robot Framework.
 
 O objetivo do projeto é automatizar tarefas como criar uma conta de usuário, acessar a página de preenchimento de perfil, pesquisar vagas e verificar a navegação entre as páginas.
